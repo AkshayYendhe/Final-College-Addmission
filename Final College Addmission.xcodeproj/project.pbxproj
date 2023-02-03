@@ -13,6 +13,10 @@
 		EFB86FC62959E0250089C8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC42959E0250089C8DD /* Main.storyboard */; };
 		EFB86FC82959E0260089C8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC72959E0260089C8DD /* Assets.xcassets */; };
 		EFB86FCB2959E0260089C8DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC92959E0260089C8DD /* LaunchScreen.storyboard */; };
+		EFB86FD32959E9860089C8DD /* Student_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB86FD22959E9860089C8DD /* Student_Struct.swift */; };
+		EFB86FD52959F0130089C8DD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB86FD42959F0130089C8DD /* SecondViewController.swift */; };
+		EFB86FD7295A07E60089C8DD /* College_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB86FD6295A07E60089C8DD /* College_Struct.swift */; };
+		EFB86FD9295A09940089C8DD /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB86FD8295A09940089C8DD /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EFB86FC72959E0260089C8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB86FCA2959E0260089C8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFB86FCC2959E0260089C8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB86FD22959E9860089C8DD /* Student_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student_Struct.swift; sourceTree = "<group>"; };
+		EFB86FD42959F0130089C8DD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EFB86FD6295A07E60089C8DD /* College_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Struct.swift; sourceTree = "<group>"; };
+		EFB86FD8295A09940089C8DD /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				EFB86FBE2959E0250089C8DD /* AppDelegate.swift */,
 				EFB86FC02959E0250089C8DD /* SceneDelegate.swift */,
 				EFB86FC22959E0250089C8DD /* ViewController.swift */,
+				EFB86FD42959F0130089C8DD /* SecondViewController.swift */,
+				EFB86FD8295A09940089C8DD /* FinalViewController.swift */,
 				EFB86FC42959E0250089C8DD /* Main.storyboard */,
+				EFB86FD22959E9860089C8DD /* Student_Struct.swift */,
+				EFB86FD6295A07E60089C8DD /* College_Struct.swift */,
 				EFB86FC72959E0260089C8DD /* Assets.xcassets */,
 				EFB86FC92959E0260089C8DD /* LaunchScreen.storyboard */,
 				EFB86FCC2959E0260089C8DD /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB86FD7295A07E60089C8DD /* College_Struct.swift in Sources */,
+				EFB86FD9295A09940089C8DD /* FinalViewController.swift in Sources */,
 				EFB86FC32959E0250089C8DD /* ViewController.swift in Sources */,
 				EFB86FBF2959E0250089C8DD /* AppDelegate.swift in Sources */,
+				EFB86FD32959E9860089C8DD /* Student_Struct.swift in Sources */,
+				EFB86FD52959F0130089C8DD /* SecondViewController.swift in Sources */,
 				EFB86FC12959E0250089C8DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
